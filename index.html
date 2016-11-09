@@ -78,7 +78,7 @@ function getAppUrl() {
 
 	if (links[app]) {
     	if (/windows phone/i.test(userAgent)) {
-	    	link = links[app].windows;
+	    	link = links[app].default;
 	    }
 		else if (/android/i.test(userAgent)) {
 		    link = links[app].android;
